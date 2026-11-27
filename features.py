@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 
-DATA_FILE = "student_performance_data.csv"
+DATA_FILE = "Student_performance_data _.csv"
 
 # Raw columns the model is allowed to see (attendance, study habits, support context)
 BASE_FEATURES = ["Age", "Absences", "StudyTimeWeekly", "Tutoring", "ParentalSupport",
