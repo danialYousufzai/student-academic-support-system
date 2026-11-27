@@ -1,0 +1,36 @@
+{
+  "model": "Logistic Regression",
+  "best_params": {
+    "clf__C": 10
+  },
+  "trained_at": "2026-11-27T05:22:54",
+  "target": "needs_support = GradeClass == 4 (F, GPA < 2.0)",
+  "high_threshold": 0.2386,
+  "medium_threshold": 0.1193,
+  "metrics": {
+    "roc_auc": 0.9281,
+    "pr_auc": 0.8952,
+    "recall": 0.9465,
+    "precision": 0.8156
+  },
+  "cv_pr_auc": {
+    "Logistic Regression": 0.9323,
+    "Hist Gradient Boosting": 0.9268,
+    "Random Forest": 0.9265
+  },
+  "features": [
+    "Age",
+    "Absences",
+    "StudyTimeWeekly",
+    "Tutoring",
+    "ParentalSupport",
+    "Extracurricular",
+    "Sports",
+    "Music",
+    "Volunteering",
+    "activities_count",
+    "high_absence",
+    "low_study",
+    "absence_study_ratio"
+  ]
+}
